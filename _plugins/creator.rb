@@ -25,7 +25,7 @@ module Jekyll
                 due_on = card.due&.to_date.to_s
                 slug = card.name.split.join("-").downcase
                 created_on = DateTime.strptime(card.id[0..7].to_i(16).to_s, '%s')
-                article_date = due_on.empty? created_on : due_on
+                article_date = due_on.empty? ? created_on : due_on
                 content = """---
                 layout: post
                 title: #{card.name}
