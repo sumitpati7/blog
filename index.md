@@ -12,5 +12,5 @@ My coursework has equipped me with a solid foundation in Data Structures and Alg
 ### Here are some of my posts till date 
 
 {% for post in site.posts limit: 5 %}
-  * {{ post.date | date: '%Y %b %d'}} >> [{{ post.title }}]({{ post.url }})
+  * {{ post.date | date: '%Y %b %d'}} >> [{{ post.title }}]({{site.baseurl}}{{ post.url }})
 {% endfor %}
