@@ -1,6 +1,9 @@
 #my variables
 name: SumitPati7
 description: Free website using jekyll and free github hosting
+baseurl: "/blog" # Your subdirectory
+url: "https://sumitpati7.github.io"
+
 
 #css settings
 sass:

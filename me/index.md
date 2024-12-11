@@ -1,0 +1,10 @@
+---
+layout: about
+---
+
+# Hello There, I am Sumit Pati.
+
+#### Diligent | Adaptable | Curious
+Enthusiastic student majoring in Computer Science and Information Technology. Passionate about coding, problem-solving, and staying up-to-date with industry trends. During my studies, I collaborated on several group projects, honing my teamwork and communication skills. Eager to contribute my knowledge and learn from experienced professionals, I am committed to making a positive impact in the field.
+
+My coursework has equipped me with a solid foundation in Data Structures and Algorithm, Database, Web Design, etc and I'm actively seeking opportunities to gain real-world experience in this field.
