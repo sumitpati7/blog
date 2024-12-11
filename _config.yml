@@ -1,0 +1,8 @@
+#my variables
+name: SumitPati7
+description: Free website using jekyll and free github hosting
+
+#css settings
+sass:
+  style: :compressed
+  sass_dir: _sass

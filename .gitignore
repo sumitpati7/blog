@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-cache
+**/**/*.tfvars
+counter/terraform/.terraform
+notes/
+.env
