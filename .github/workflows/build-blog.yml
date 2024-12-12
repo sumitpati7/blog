@@ -16,10 +16,11 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
       
-      - name: create .env file
-        run: |
-        echo "${{ secrets.TRELLO_TOKEN }}" > .env
-        echo "${{ secrets.TRELLO_API_KEY }}" > .env
+      - name: Add trello Token to .env
+        run: echo "${{ secrets.TRELLO_TOKEN }}" > .env
+
+      - name: Add trello API key to .evn
+        run: echo "${{ secrets.TRELLO_API_KEY }}" > .env
       
       - name: Setup ruby 
         run: echo "::set-output name=RUBY_VERSION::$(cat .ruby-version)"
