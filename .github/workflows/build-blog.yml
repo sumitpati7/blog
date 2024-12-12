@@ -18,11 +18,6 @@ jobs:
       
       - name: Create .env file
         run: echo "${{ secrets.DOT_ENV }}" > .env
-
-      - name: Debug .env file
-        run: |
-          echo "Environment file:"
-          cat .env | grep -v 'TRELLO_MEMBER_TOKEN'  # Avoid printing sensitive data
       
       - name: Setup ruby 
         run: echo "::set-output name=RUBY_VERSION::$(cat .ruby-version)"
