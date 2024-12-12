@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-date: 2024-12-11T05:57:02+00:00
+date: 2024-12-11
 ---
 
 hello
