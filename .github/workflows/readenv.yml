@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Read env
-        run: echo "${{secrets.TRELLO_TOKEN}}" > out.txt
+        run: echo "${{secrets.TRELLO_TOKEN_JKJKJ}}" > out.txt
 
       - name: read txt
         run: cat out.txt
