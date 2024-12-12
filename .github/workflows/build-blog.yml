@@ -16,11 +16,8 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v2
       
-      - name: Add trello Token to .env
-        run: echo "TRELLO_TOKEN = ${{ secrets.TRELLO_TOKEN }}" > .env
-
-      - name: Add trello API key to .evn
-        run: echo "TRELLO_API_KEY = ${{ secrets.TRELLO_API_KEY }}" > .env
+      - name: Create .env file
+        run: echo "${{ secrets.DOT_ENV }}" > .env
 
       - name: Debug .env file
         run: |
