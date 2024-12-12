@@ -21,6 +21,12 @@ jobs:
 
       - name: Add trello API key to .evn
         run: echo "TRELLO_API_KEY = ${{ secrets.TRELLO_API_KEY }}" > .env
+
+      - name: Debug .env file
+        run: |
+          echo "Environment file:"
+          cat .env | grep -v 'TRELLO_MEMBER_TOKEN'  # Avoid printing sensitive data
+
       
       - name: Setup ruby 
         run: echo "::set-output name=RUBY_VERSION::$(cat .ruby-version)"
