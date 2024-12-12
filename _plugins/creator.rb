@@ -11,6 +11,8 @@ module Jekyll
             @trello_api_key = ENV['TRELLO_API_KEY']
             @trello_token = ENV['TRELLO_TOKEN']
 
+            puts @trello_api_key
+
             Trello.configure do |config|
                 config.developer_public_key = @trello_api_key
                 config.member_token = @trello_token
