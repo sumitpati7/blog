@@ -29,12 +29,12 @@ module Jekyll
                 created_on = DateTime.strptime(card.id[0..7].to_i(16).to_s, '%s')
                 article_date = due_on.empty? ? created_on : due_on
                 content = """---
-                layout: post
-                title: #{card.name}
-                date: #{article_date}
-                ---
+layout: post
+title: #{card.name}
+date: #{article_date}
+---
 
-                #{card.desc}
+#{card.desc}
                 """
                 file = File.open("./_posts/#{article_date}-#{slug}.md","w+") { |f| f.write(content) }
             end
