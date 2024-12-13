@@ -200,6 +200,10 @@ img {
     font-weight: 500;
 }
 
+.navigations {
+    z-index: 10;
+}
+
 blockquote {
     margin: 20px 0 20px;
     padding: 30px;
