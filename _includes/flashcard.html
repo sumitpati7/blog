@@ -1,0 +1,12 @@
+<div class="flashcards">
+    {% for card in page.flashcards %}
+    <div class="flashcard">
+        <div class="question">
+            <p>{{ card.question }}</p>
+        </div>
+        <div class="answer">
+            <p>{{ card.answer }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
