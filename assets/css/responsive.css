@@ -79,6 +79,10 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+
+    .display-area{
+        width: 80%;
+    }
 }
 
 
@@ -124,6 +128,10 @@
     }
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
+    }
+
+    .display-area{
+        width: 90%;
     }
 }
 

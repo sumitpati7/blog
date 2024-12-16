@@ -1,22 +1,17 @@
 ---
 layout: default
-flashcards:
-  - question: "What is your name?"
-    answer: "Sumit Pati"
-  - question: "What is your name?"
-    answer: "Sumit Pati"
-  - question: "What is your name?"
-    answer: "Sumit Pati"
-  - question: "What is your name?"
-    answer: "Sumit Pati"
-  - question: "What is your name?"
-    answer: "Sumit Pati"
-  - question: "What is your name?"
-    answer: "Sumit Pati"
-  - question: "What is your name?"
-    answer: "Sumit Pati"
+title: SumitPati7
+flashcards: 
+  - question: What is your current ruby version?
+    answer: 3\.3.4
+            
+  - question: What is your name?
+    answer: My name is **Sumit Pati**.
+            
+  - question: Academic Qualification?
+    answer: Bachelor in CSIT
+            
 ---
-
 # Hello There, I am Sumit Pati.
 
 #### Diligent | Adaptable | Curious
@@ -31,3 +26,4 @@ My coursework has equipped me with a solid foundation in Data Structures and Alg
 {% endfor %}
 
 {% include flashcard.html %}
+      
