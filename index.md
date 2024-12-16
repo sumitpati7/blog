@@ -1,5 +1,20 @@
 ---
-layout: about
+layout: default
+flashcards:
+  - question: "What is your name?"
+    answer: "Sumit Pati"
+  - question: "What is your name?"
+    answer: "Sumit Pati"
+  - question: "What is your name?"
+    answer: "Sumit Pati"
+  - question: "What is your name?"
+    answer: "Sumit Pati"
+  - question: "What is your name?"
+    answer: "Sumit Pati"
+  - question: "What is your name?"
+    answer: "Sumit Pati"
+  - question: "What is your name?"
+    answer: "Sumit Pati"
 ---
 
 # Hello There, I am Sumit Pati.
@@ -14,3 +29,5 @@ My coursework has equipped me with a solid foundation in Data Structures and Alg
 {% for post in site.posts limit: 5 %}
   * {{ post.date | date: '%Y %b %d'}} >> [{{ post.title }}]({{site.baseurl}}{{ post.url }})
 {% endfor %}
+
+{% include flashcard.html %}

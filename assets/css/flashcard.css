@@ -1,14 +1,15 @@
 .flashcards{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     gap: 20px;
     justify-content: center;
+    align-items: center;
     margin: 20px 0;
+    grid-template-columns: repeat(4, 3fr);
 }
 
 .flashcard{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     perspective: 300px;
 }
 
@@ -27,7 +28,7 @@
     font-size: 1em;
     color: #ccc;
     background: #333;
-    transition: transform 0.6s;
+    transition: transform 0.8s;
 }
 
 .flashcard .question {
@@ -55,4 +56,27 @@
   .flashcard.flipped .answer {
     transform: rotateY(0deg);
   }
+
+@media screen and (max-width: 1600px) {
+    .flashcards{
+        grid-template-columns: repeat(3, 3fr);
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .flashcards{
+        grid-template-columns: repeat(2, 3fr);
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .flashcards{
+        grid-template-columns: repeat(1, 3fr);
+        place-items: center;
+    }
+
+    .flashcard div{
+        font-weight: 700;
+    }
+}
   
