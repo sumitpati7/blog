@@ -2,6 +2,13 @@
 layout: post
 title: Creating a Ruby Gem
 date: 2024-12-13
+flashcards: 
+  - question: Academic Qualification?
+    answer: Bachelor in CSIT
+            
+  - question: What is your current ruby version?
+    answer: 3\.3.4
+            
 ---
 
 ## Ruby Gem
