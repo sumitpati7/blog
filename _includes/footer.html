@@ -4,14 +4,14 @@
       <a class="site-title footer_logo" href="index.html">SumitPati7</a>
     </div>
     <div class="footer_menu">
-      <ul>
+      <ul class="footer-nav">
         {% for item in site.data.navigation %}
         <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
     <div class="contact_menu">
-      <ul>
+      <ul class="footer-nav">
         <li>
           <a href="tel:+9779843803325" title><img src="{{site.baseurl}}/assets/images/call-icon.png" /></a>
         </li>

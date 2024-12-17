@@ -1000,8 +1000,9 @@ textarea#comment::placeholder {
 .footer_menu ul {
     margin: 0px;
     padding: 0px;
-    display: none;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 .footer_menu li {
@@ -1090,13 +1091,4 @@ textarea#comment::placeholder {
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
-}
-
-@media (max-width: 600px) {
-    .footer_menu ul {
-        margin: 0px;
-        padding: 0px;
-        display: block;
-        text-align: center;
-    }
 }

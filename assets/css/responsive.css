@@ -83,6 +83,10 @@
     .display-area{
         width: 80%;
     }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -132,6 +136,10 @@
 
     .display-area{
         width: 90%;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
     }
 }
 
