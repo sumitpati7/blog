@@ -2,14 +2,17 @@
 layout: default
 title: SumitPati7
 flashcards: 
-  - question: Academic Qualification?
-    answer: Bachelor in CSIT
-            
   - question: What is your name?
     answer: My name is **Sumit Pati**.
             
   - question: What is your current ruby version?
     answer: 3\.3.4
+            
+  - question: Academic Qualification?
+    answer: Bachelor in CSIT
+            
+  - question: Question
+    answer: Answer
             
 ---
 # Hello There, I am Sumit Pati.
