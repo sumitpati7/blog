@@ -8,11 +8,11 @@ flashcards:
   - question: Academic Qualification?
     answer: Bachelor in CSIT
             
-  - question: What is your current ruby version?
-    answer: 3\.3.4
-            
   - question: Question
     answer: Answer
+            
+  - question: What is your current ruby version?
+    answer: 3\.3.4
             
 ---
 # Hello There, I am Sumit Pati.
