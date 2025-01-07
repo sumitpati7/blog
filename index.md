@@ -2,9 +2,6 @@
 layout: default
 title: SumitPati7
 flashcards: 
-  - question: What is your current ruby version?
-    answer: 3\.3.4
-            
   - question: Question
     answer: Answer
             
@@ -13,6 +10,9 @@ flashcards:
             
   - question: What is your name?
     answer: My name is **Sumit Pati**.
+            
+  - question: What is your current ruby version?
+    answer: 3\.3.4
             
 ---
 # Hello There, I am Sumit Pati.
