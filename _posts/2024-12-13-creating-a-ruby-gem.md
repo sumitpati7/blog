@@ -17,5 +17,5 @@ A Ruby Gem is a module/library that you can install and use in your ruby program
 
 ## Creating a Gem
 
-We can create a gem using the bundler, which provides the basic structure of the Gem project pre built. But in this project we will be building the gem without using the bundler.
+We can create a gem using the bundler, which provides the basic structure of the Gem project prebuilt. But in this project, we will be building the gem without using the bundler and from scratch.
         
