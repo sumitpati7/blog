@@ -5,14 +5,14 @@ flashcards:
   - question: What is your name?
     answer: My name is **Sumit Pati**.
             
-  - question: Academic Qualification?
-    answer: Bachelor in CSIT
-            
   - question: What is your current ruby version?
     answer: 3\.3.4
             
   - question: Question
     answer: Answer
+            
+  - question: Academic Qualification?
+    answer: Bachelor in CSIT
             
 ---
 # Hello There, I am Sumit Pati.
