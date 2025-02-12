@@ -2,6 +2,9 @@
 layout: default
 title: SumitPati7
 flashcards: 
+  - question: Academic Qualification?
+    answer: Bachelor in CSIT
+            
   - question: Question
     answer: Answer
             
@@ -10,9 +13,6 @@ flashcards:
             
   - question: What is your name?
     answer: My name is **Sumit Pati**.
-            
-  - question: Academic Qualification?
-    answer: Bachelor in CSIT
             
 ---
 # Hello There, I am Sumit Pati.
