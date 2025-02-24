@@ -8,11 +8,11 @@ flashcards:
   - question: What is your name?
     answer: My name is **Sumit Pati**.
             
-  - question: Question
-    answer: Answer
-            
   - question: Academic Qualification?
     answer: Bachelor in CSIT
+            
+  - question: Question
+    answer: Answer
             
 ---
 # Hello There, I am Sumit Pati.
