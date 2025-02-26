@@ -140,8 +140,7 @@ ol {
 }
 
 p {
-    margin: 20px;
-    margin-top: 0px;
+    margin-bottom: 20px;
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
@@ -1091,4 +1090,53 @@ textarea#comment::placeholder {
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
+}
+
+pre.highlight {
+    background: #1e1e1e; /* Dark background for code block */
+    color: #dcdcdc; /* Light text */
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto; /* Prevents overflow */
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+code {
+    color: #e8398c; /* Soft red */
+    padding: 2px 2px;
+    border-radius: 4px;
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 14px;
+}
+
+/* Syntax highlighting (example for general use) */
+pre code {
+    color: #abb2bf; /* Default text color */
+}
+
+/* Highlighting for keywords (adjust for syntax highlighting) */
+.token.keyword { color: #c678dd; } /* Purple */
+.token.string { color: #98c379; } /* Green */
+.token.function { color: #61afef; } /* Blue */
+.token.comment { color: #5c6370; font-style: italic; } /* Gray */
+
+.copy-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.copy-button:hover {
+    background: rgba(255,255,255,0.6);
 }
