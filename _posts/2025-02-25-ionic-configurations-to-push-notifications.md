@@ -9,7 +9,7 @@ Notifications play a crucial role in enhancing user engagement and experience in
 
 There are different types of notifications, such as push notifications, local notifications and in-app notifications. Push notifications are sent from a server to the user’s device, making them ideal for real-time updates. Local notifications, on the other hand, are scheduled and triggered by the app itself, even without an internet connection.
 
-In this article we will talk about how to enable local notifications in android. Firstly, we have to add the use notifications command in the Android manifest file. Go to your Android Studio and navigate to your AndroidManifest.xml file. Add the below code inside the manifest tag.
+In this article we will talk about how to enable local notifications in android. Firstly, we have to add the use notifications command in the Android manifest file. Go to your Android Studio and navigate to your `AndroidManifest.xml` file. Add the below code inside the manifest tag.
 
 ```xml
 <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
