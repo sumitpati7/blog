@@ -1,0 +1,27 @@
+/* Base styling for code blocks */
+pre code {
+  font-family: 'Fira Mono', Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.9rem;
+  background-color: #282c34;
+  color: #abb2bf;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  white-space: pre-wrap; /* wrap long lines */
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+/* Token colors (Monokai Sublime inspired) */
+code .kn { color: #c678dd; }   
+code .nn { color: #61afef; }    
+code .n  { color: #e5c07b; }   
+code .k  { color: #c678dd; }  
+code .nc { color: #e06c75; }    
+code .p  { color: #abb2bf; }   
+code .s  { color: #98c379; }   
+code .bp { color: #56b6c2; }   
+code .o  { color: #56b6c2; }   
+code .sa { color: #d19a66; }
+code .si { color: #d19a66; } 
+

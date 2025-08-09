@@ -1,11 +1,16 @@
-#my variables
-name: SumitPati7
-description: Free website using jekyll and free github hosting
+# Site variables
+name: "SumitPati7"
+description: "Free website using Jekyll and free GitHub hosting"
 baseurl: "/blog" # Your subdirectory
 url: "https://sumitpati7.github.io"
 
+# Markdown & Syntax Highlighting
+markdown: kramdown
+highlighter: rouge
+rouge:
+  theme: monokai.sublime
 
-#css settings
+# CSS / Sass settings
 sass:
-  style: :compressed
+  style: compressed
   sass_dir: _sass
