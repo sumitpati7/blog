@@ -11,6 +11,6 @@ labels:
 ---
 Sometimes, when you are working on some projects, there may arise a situation where you have to run a specific command for a number of times. The command below comes in handy on these conditions. Here, you can run the specific command for a number of times as per your requirement.
 
-```
-for i in `seq <<no.of times>>`; do bundle exec <<your command here>>; done
+```shell
+for i in `seq <<no.of times>>`; do <<your command here>>; done
 ```
