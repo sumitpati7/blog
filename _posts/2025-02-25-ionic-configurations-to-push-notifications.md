@@ -2,9 +2,13 @@
 layout: post
 title: Ionic configurations to push notifications
 date: 2025-02-25
-flashcards: 
----
+flashcards:
 
+labels:
+- name: Ionic
+  color: red
+
+---
 Notifications play a crucial role in enhancing user engagement and experience in mobile applications. Notifications can be used to provide timely updates, reminders, and important information even when the app is not actively in use. Whether it’s a new message, an order update, or a promotional offer, notifications help keep users informed and connected.
 
 There are different types of notifications, such as push notifications, local notifications and in-app notifications. Push notifications are sent from a server to the user’s device, making them ideal for real-time updates. Local notifications, on the other hand, are scheduled and triggered by the app itself, even without an internet connection.
@@ -54,4 +58,3 @@ public class MainActivity extends BridgeActivity {
 ```
 
 After this when the application is build and installed. The applications asks the user for permissions to send notifications. Now you can make the app to send scheduled notifications from your application.
-        

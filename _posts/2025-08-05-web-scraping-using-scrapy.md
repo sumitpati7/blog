@@ -2,9 +2,15 @@
 layout: post
 title: Web Scraping using scrapy
 date: 2025-08-05
-flashcards: 
----
+flashcards:
 
+labels:
+- name: Web Scraping
+  color: blue
+- name: Scrapy
+  color: red_light
+
+---
 ## Prerequisites :
 
 - Install Python, pip, and scrapy.
@@ -73,4 +79,3 @@ When we run the program, the `start()` method is called. This is the entry point
 ## References
 
 - [https://docs.scrapy.org/en/latest/intro/tutorial.html#storing-the-scraped-data](https://docs.scrapy.org/en/latest/intro/tutorial.html#storing-the-scraped-data "smartCard-inline")
-        
