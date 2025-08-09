@@ -10,5 +10,3 @@ flashcards:
 ### Here are some of my posts till date
 
 {% include posts.html %}
-
-{% include flashcard.html %}
