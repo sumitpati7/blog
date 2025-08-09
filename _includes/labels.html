@@ -1,0 +1,7 @@
+{% for label in page.labels %}
+  <div class="label-item" data-color="{{ label.color }}">
+    <p>{{ label.name }}</p>
+  </div>
+{% endfor %}
+
+{% include label_js.html %}

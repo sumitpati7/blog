@@ -6,6 +6,10 @@ layout: default
 	<header>
 		<p class="date">{{ page.date | date: '%B %-d, %Y' }}</p>
 		<h1>{{ page.title }}</h1>
+		<div id="labels">
+			<span class="labels-title">Tags:</span>
+			{% include labels.html %}
+		</div>
 		<hr>
 	</header>
 
