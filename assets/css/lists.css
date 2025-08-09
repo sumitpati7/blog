@@ -1,0 +1,75 @@
+.posts-list {
+  /* max-width: 700px; */
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.post-box-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 16px;
+  border-radius: 6px; /* move border radius here for smooth edges */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.post-box-link:hover {
+  border-color: #aaa;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+  background: #fff;
+}
+
+.post-box {
+  border: 1px solid #ddd;
+  border-radius: 6px; /* redundant here, handled on link */
+  padding: 12px 16px;
+  background: #fafafa;
+  transition: background-color 0.3s ease;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  transition: color 0.3s ease;
+}
+
+.post-box-link:hover .post-title {
+  color: #007acc;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #666;
+  transition: color 0.3s ease;
+  margin-bottom: 8px; /* add spacing below date */
+}
+
+.post-box-link:hover .post-date {
+  color: #444;
+}
+
+.post-tags {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.label-item {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: default;
+  user-select: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-transform: capitalize;
+  box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+
+.label-item:hover {
+  filter: brightness(85%);
+}

@@ -1,0 +1,25 @@
+<div class="posts-list">
+  {% for post in site.posts %}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post-box-link">
+      <div class="post-box">
+        <div class="post-date">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: '%Y %b %d' }}
+          </time>
+        </div>
+        <h3 class="post-title">{{ post.title }}</h3>
+        {% if post.labels %}
+        <div class="post-tags">
+          {% for label in post.labels %}
+            <div class="label-item" data-color="{{ label.color }}">
+              <p>{{ label.name }}</p>
+            </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+{% include label_js.html %}
