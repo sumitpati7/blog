@@ -136,7 +136,7 @@ li,
 ol {
     margin: 0px;
     padding: 0px;
-    list-style: none;
+    list-style: disc;
 }
 
 p {
